@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { Input } from './components/base-ui/input';
+import { Button } from './components/base-ui/button';
+import { SearchBox } from './components/forms/search-box';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchBox />
     </div>
   );
 }

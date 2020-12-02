@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component snapshot test 1`] = `
+<button
+  className="sc-bdfBwQ dCsBHJ"
+>
+  Click
+</button>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Box component snapshot test 1`] = `
+<form>
+  <input
+    className="sc-bdfBwQ jyVkcv"
+    onChange={[Function]}
+    placeholder="Search your movies"
+    value=""
+  />
+  <button
+    className="sc-gsTCUz ckOyNJ"
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</form>
+`;
