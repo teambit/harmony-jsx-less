@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://docs.bit.dev/configuration
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -89,7 +89,7 @@
         "react-dev-utils": "^11.0.1",
         "react-modal": "^3.12.1",
         "react-refresh": "^0.8.3",
-        "react-test-renderer": "^17.0.1",
+        "react-test-renderer": "16.9.0",
         "resolve": "1.18.1",
         "resolve-url-loader": "^3.1.2",
         "sass-loader": "8.0.2",
@@ -105,8 +105,8 @@
         "workbox-webpack-plugin": "5.1.4"
       },
       "peerDependencies": {
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
+        "react": "16.9.0",
+        "react-dom": "16.9.0",
         "styled-components": "^5.2.1"
       }
     }
