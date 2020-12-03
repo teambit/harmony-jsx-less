@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader component snapshot test 1`] = `
+<div
+  style={Object {}}
+>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "background": "#010101",
+        }
+      }
+    />
+  </div>
+</div>
+`;

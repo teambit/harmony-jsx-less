@@ -1,19 +1,27 @@
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { Input } from '../../base-ui/input';
 import { Button } from '../../base-ui/button';
+import styles from './search-box.module.less';
 
 export const SearchBox = ({ onSubmit }) => {
-  const [value, setvalue] = useState('');
+  const refInput = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSubmit(refInput.current.value);
+  };
 
   return (
-    <form>
+    <form className={styles.main} onSubmit={handleSubmit}>
       <Input
+        ref={refInput}
         placeholder="Search your movies"
-        value={value}
-        onChange={setvalue}
+        className={styles.input}
       />
-      <Button onClick={onSubmit}>Search</Button>
+      <Button type="submit" className={styles.button}>
+        Search
+      </Button>
     </form>
   );
 };

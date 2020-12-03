@@ -1,0 +1,1 @@
+export { APIconfig } from './config';

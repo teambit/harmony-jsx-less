@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie card component snapshot test 1`] = `
+<div>
+  <img
+    alt="The Wolf of Wall Street"
+    src="https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg"
+  />
+  <div>
+    The Wolf of Wall Street
+  </div>
+  <button
+    className="sc-bdfBwQ kvbBrN"
+    onClick={[Function]}
+  >
+    More Info
+  </button>
+</div>
+`;

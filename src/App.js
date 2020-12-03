@@ -1,12 +1,10 @@
 import './App.css';
-import { Input } from './components/base-ui/input';
-import { Button } from './components/base-ui/button';
-import { SearchBox } from './components/forms/search-box';
+import { MoviesSearch } from './components/forms/movies-search';
 
 function App() {
   return (
     <div className="App">
-      <SearchBox />
+      <MoviesSearch />
     </div>
   );
 }
