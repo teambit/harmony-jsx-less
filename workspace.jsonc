@@ -27,10 +27,11 @@
     /**
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
      */
-    "packageManager": "teambit.dependencies/yarn",
+    "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
         "@babel/core": "7.12.3",
+        "@babel/preset-es2015": "7.0.0-beta.53",
         "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
         "@svgr/webpack": "5.4.0",
         "@teambit/documenter.theme.theme-context": "0.2.3",

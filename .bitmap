@@ -126,8 +126,8 @@
     "extensions/react-babel": {
         "files": [
             {
-                "name": "babel.config.json",
-                "relativePath": "babel/babel.config.json",
+                "name": "babel.config.js",
+                "relativePath": "babel/babel.config.js",
                 "test": false
             },
             {

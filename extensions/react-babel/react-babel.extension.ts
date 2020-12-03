@@ -2,7 +2,7 @@ import { EnvsMain, EnvsAspect } from '@teambit/envs';
 import { ReactAspect, ReactMain } from '@teambit/react';
 import { BabelAspect, BabelMain } from '@teambit/babel';
 
-const babelConfig = require('./babel/babel.config.json');
+const babelConfig = require('./babel/babel.config');
 
 /**
  * React-Babel extension for Bit
