@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://docs.bit.dev/configuration
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -33,6 +33,10 @@
         "@babel/core": "7.12.3",
         "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
         "@svgr/webpack": "5.4.0",
+        "@teambit/documenter.theme.theme-context": "1.0.0",
+        "@teambit/documenter.ui.heading": "0.2.3",
+        "@teambit/documenter.ui.section": "0.2.3",
+        "@teambit/documenter.ui.separator": "0.2.3",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
         "@testing-library/user-event": "^12.1.10",
