@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
-import { Input } from '../../base-ui/input';
-import { Button } from '../../base-ui/button';
+import { Input } from '@netflux-react-babel/base-ui.input';
+import { Button } from '@netflux-react-babel/base-ui.button';
 import styles from './search-box.module.less';
 
 export const SearchBox = ({ onSubmit }) => {

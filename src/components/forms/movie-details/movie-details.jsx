@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Loader } from '../../base-ui/loader';
-import { useMovieDetails } from '../../../hooks/use-movie-details';
+import { Loader } from '@netflux-react-babel/base-ui.loader';
+import { useMovieDetails } from '@netflux-react-babel/movies.hooks.use-movie-details';
 import styles from './movie-details.module.less';
 
 export const MovieDetails = ({ imdbID }) => {

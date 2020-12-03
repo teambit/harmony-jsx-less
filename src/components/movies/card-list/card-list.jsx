@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card } from '../card';
+import { Card } from '@netflux-react-babel/movies.card';
 import styles from './card-list.module.less';
 
 export const CardList = ({ list }) => {

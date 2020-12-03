@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-modal';
-import { Button } from '../../base-ui/button';
-import { MovieDetails } from '../../forms/movie-details';
+import { Button } from '@netflux-react-babel/base-ui.button';
+import { MovieDetails } from '@netflux-react-babel/movies.forms.movie-details';
 import styles from './card.module.less';
 
 const customStyles = {

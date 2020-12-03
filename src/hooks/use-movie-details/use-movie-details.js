@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { APIconfig } from '../config';
+import { APIconfig } from '@netflux-react-babel/movies.hooks.config';
 
 export const useMovieDetails = () => {
   const [movie, setMovie] = useState({});

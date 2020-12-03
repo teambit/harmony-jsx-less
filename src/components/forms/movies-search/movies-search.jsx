@@ -1,8 +1,8 @@
 import React from 'react';
-import { SearchBox } from '../search-box';
-import { Loader } from '../../base-ui/loader';
-import { CardList } from '../../movies/card-list';
-import { useSearchMovies } from '../../../hooks/use-search-movies';
+import { SearchBox } from '@netflux-react-babel/movies.forms.search-box';
+import { Loader } from '@netflux-react-babel/base-ui.loader';
+import { CardList } from '@netflux-react-babel/movies.card-list';
+import { useSearchMovies } from '@netflux-react-babel/movies.hooks.use-search-movies';
 import styles from './movies-search.module.less';
 
 export const MoviesSearch = () => {
