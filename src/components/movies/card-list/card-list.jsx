@@ -20,14 +20,16 @@ export const CardList = ({ list }) => {
 };
 
 CardList.propTypes = {
+  /** Array of movies object */
   list: PropTypes.arrayOf(
     PropTypes.shape({
-      /** Movie title */
       title: PropTypes.string,
-      /** The movie ID from the API */
       imdbID: PropTypes.string,
-      /* Movie image */
       poster: PropTypes.string,
     })
   ),
+};
+
+CardList.defaultProps = {
+  list: [],
 };

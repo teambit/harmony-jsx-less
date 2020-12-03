@@ -30,5 +30,5 @@ Loader.propTypes = {
 
 Loader.defaultProps = {
   color: '#010101',
-  style: {},
+  style: '',
 };

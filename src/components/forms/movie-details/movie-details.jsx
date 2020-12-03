@@ -50,3 +50,7 @@ MovieDetails.propTypes = {
   /** The movie ID from the API */
   imdbID: PropTypes.string.isRequired,
 };
+
+MovieDetails.defaultProps = {
+  imdbID: '',
+};

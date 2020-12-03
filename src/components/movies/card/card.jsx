@@ -45,6 +45,12 @@ Card.propTypes = {
   title: PropTypes.string.isRequired,
   /** The movie ID from the API */
   imdbID: PropTypes.string.isRequired,
-  /* Movie image */
+  /** url movie image */
   poster: PropTypes.string.isRequired,
+};
+
+Card.defaultProps = {
+  title: '',
+  imdbID: '',
+  poster: '',
 };
