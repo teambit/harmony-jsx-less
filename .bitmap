@@ -40,6 +40,89 @@
         "exported": false,
         "lanes": []
     },
+    "card": {
+        "files": [
+            {
+                "name": "card.spec.jsx.snap",
+                "relativePath": "__snapshots__/card.spec.jsx.snap",
+                "test": false
+            },
+            {
+                "name": "card.composition.jsx",
+                "relativePath": "card.composition.jsx",
+                "test": false
+            },
+            {
+                "name": "card.docs.jsx",
+                "relativePath": "card.docs.jsx",
+                "test": false
+            },
+            {
+                "name": "card.jsx",
+                "relativePath": "card.jsx",
+                "test": false
+            },
+            {
+                "name": "card.module.less",
+                "relativePath": "card.module.less",
+                "test": false
+            },
+            {
+                "name": "card.spec.jsx",
+                "relativePath": "card.spec.jsx",
+                "test": false
+            },
+            {
+                "name": "index.js",
+                "relativePath": "index.js",
+                "test": false
+            }
+        ],
+        "mainFile": "index.js",
+        "rootDir": "src/components/movies/card",
+        "origin": "AUTHORED",
+        "exported": false,
+        "lanes": []
+    },
+    "card-list": {
+        "files": [
+            {
+                "name": "card-list.composition.jsx",
+                "relativePath": "card-list.composition.jsx",
+                "test": false
+            },
+            {
+                "name": "card-list.docs.jsx",
+                "relativePath": "card-list.docs.jsx",
+                "test": false
+            },
+            {
+                "name": "card-list.jsx",
+                "relativePath": "card-list.jsx",
+                "test": false
+            },
+            {
+                "name": "card-list.module.less",
+                "relativePath": "card-list.module.less",
+                "test": false
+            },
+            {
+                "name": "card-list.spec.jsx",
+                "relativePath": "card-list.spec.jsx",
+                "test": false
+            },
+            {
+                "name": "index.js",
+                "relativePath": "index.js",
+                "test": false
+            }
+        ],
+        "mainFile": "index.js",
+        "rootDir": "src/components/movies/card-list",
+        "origin": "AUTHORED",
+        "exported": false,
+        "lanes": []
+    },
     "extensions/react-babel": {
         "files": [
             {
@@ -79,7 +162,7 @@
             }
         ],
         "mainFile": "index.ts",
-        "rootDir": "src/extensions/react-babel",
+        "rootDir": "extensions/react-babel",
         "origin": "AUTHORED",
         "exported": false,
         "lanes": []
@@ -346,88 +429,5 @@
         "exported": false,
         "lanes": []
     },
-    "card": {
-        "files": [
-            {
-                "name": "card.spec.jsx.snap",
-                "relativePath": "__snapshots__/card.spec.jsx.snap",
-                "test": false
-            },
-            {
-                "name": "card.composition.jsx",
-                "relativePath": "card.composition.jsx",
-                "test": false
-            },
-            {
-                "name": "card.docs.jsx",
-                "relativePath": "card.docs.jsx",
-                "test": false
-            },
-            {
-                "name": "card.jsx",
-                "relativePath": "card.jsx",
-                "test": false
-            },
-            {
-                "name": "card.module.less",
-                "relativePath": "card.module.less",
-                "test": false
-            },
-            {
-                "name": "card.spec.jsx",
-                "relativePath": "card.spec.jsx",
-                "test": false
-            },
-            {
-                "name": "index.js",
-                "relativePath": "index.js",
-                "test": false
-            }
-        ],
-        "mainFile": "index.js",
-        "rootDir": "src/components/movies/card",
-        "origin": "AUTHORED",
-        "exported": false,
-        "lanes": []
-    },
-    "card-list": {
-        "files": [
-            {
-                "name": "card-list.composition.jsx",
-                "relativePath": "card-list.composition.jsx",
-                "test": false
-            },
-            {
-                "name": "card-list.docs.jsx",
-                "relativePath": "card-list.docs.jsx",
-                "test": false
-            },
-            {
-                "name": "card-list.jsx",
-                "relativePath": "card-list.jsx",
-                "test": false
-            },
-            {
-                "name": "card-list.module.less",
-                "relativePath": "card-list.module.less",
-                "test": false
-            },
-            {
-                "name": "card-list.spec.jsx",
-                "relativePath": "card-list.spec.jsx",
-                "test": false
-            },
-            {
-                "name": "index.js",
-                "relativePath": "index.js",
-                "test": false
-            }
-        ],
-        "mainFile": "index.js",
-        "rootDir": "src/components/movies/card-list",
-        "origin": "AUTHORED",
-        "exported": false,
-        "lanes": []
-    },
-    "version": "14.8.9-dev.183"
+    "version": "14.8.9-dev.184"
 }

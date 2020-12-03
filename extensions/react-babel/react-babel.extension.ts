@@ -24,8 +24,9 @@ export class HarmonyReactBabelExtension {
 
     const harmonyReactEnv = react.compose([
       react.overrideCompiler(babelCompiler),
+      react.overrideCompilerTasks([babelCompiler.createTask()]),
       react.overrideJestConfig(require.resolve('./jest/jest.config')),
-      react.overrideDevServerConfig(require('./webpack/webpack.config')),
+      //react.overrideDevServerConfig(require('./webpack/webpack.config')),
     ]);
 
     // register the new environment to the workspace
