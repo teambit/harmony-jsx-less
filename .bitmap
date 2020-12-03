@@ -141,11 +141,6 @@
                 "test": false
             },
             {
-                "name": "jest.setup.js",
-                "relativePath": "jest/jest.setup.js",
-                "test": false
-            },
-            {
                 "name": "react-babel.docs.tsx",
                 "relativePath": "react-babel.docs.tsx",
                 "test": false
