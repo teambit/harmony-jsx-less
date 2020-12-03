@@ -4,7 +4,7 @@ import { ThemeContext } from '@teambit/documenter.theme.theme-context';
 import { H3 } from '@teambit/documenter.ui.heading';
 import { Paragraph } from '@teambit/documenter.ui.paragraph';
 import { Separator } from '@teambit/documenter.ui.separator';
-import { MovieDetails } from './movie-details';
+import { MoviesSearch } from './movies-search';
 
 export default function Overview() {
   return (
@@ -13,8 +13,8 @@ export default function Overview() {
         <Section>
           <H3>Overview</H3>
           <Paragraph>
-            The movies-details component shows you all the details of a specific
-            movie.
+            The movies-search component allow you to search for movies and
+            displays a list with their title and the poster of the movie.
           </Paragraph>
         </Section>
         <Separator />
@@ -23,17 +23,17 @@ export default function Overview() {
   );
 }
 
-Overview.abstract = 'A movies details screen component.';
+Overview.abstract = 'A movies search component.';
 
-Overview.labels = ['react', 'babel', 'movie', 'details'];
+Overview.labels = ['react', 'babel', 'movies', 'search'];
 
 Overview.examples = [
   {
     scope: {
-      MovieDetails,
+      MoviesSearch,
     },
-    title: 'Movie details example',
-    description: 'A complete movie details',
-    jsx: <MovieDetails imdbID="tt0993846" />,
+    title: 'Movies search example',
+    description: 'A complete movies search example',
+    jsx: <MoviesSearch />,
   },
 ];

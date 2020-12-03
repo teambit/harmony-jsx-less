@@ -11,7 +11,10 @@ export const MoviesSearch = () => {
   return (
     <div className={styles.container}>
       <div className={styles.searchContainer}>
-        <SearchBox onSubmit={(searchValue) => getMovies(searchValue)} />
+        <SearchBox
+          placeHolder="Search your movies"
+          onSubmit={(searchValue) => getMovies(searchValue)}
+        />
       </div>
       <div className={styles.results}>
         {isLoading ? <Loader /> : <CardList list={movies} />}

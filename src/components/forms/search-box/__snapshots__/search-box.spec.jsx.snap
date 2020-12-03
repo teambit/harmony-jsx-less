@@ -6,7 +6,24 @@ exports[`Search Box component snapshot test 1`] = `
 >
   <input
     className="sc-bdfBwQ jyVkcv"
-    placeholder="Search your movies"
+    placeholder="Search..."
+  />
+  <button
+    className="sc-gsTCUz fTGdlx"
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;
+
+exports[`Search Box component snapshot test with place holder props 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="sc-bdfBwQ jyVkcv"
+    placeholder="place holder"
   />
   <button
     className="sc-gsTCUz fTGdlx"

@@ -209,13 +209,13 @@
                 "test": false
             },
             {
-                "name": "movies-search-docs.jsx",
-                "relativePath": "movies-search-docs.jsx",
+                "name": "movies-search.composition.jsx",
+                "relativePath": "movies-search.composition.jsx",
                 "test": false
             },
             {
-                "name": "movies-search.composition.jsx",
-                "relativePath": "movies-search.composition.jsx",
+                "name": "movies-search.docs.jsx",
+                "relativePath": "movies-search.docs.jsx",
                 "test": false
             },
             {

@@ -4,7 +4,7 @@ import { Input } from '@netflux-react-babel/base-ui.input';
 import { Button } from '@netflux-react-babel/base-ui.button';
 import styles from './search-box.module.less';
 
-export const SearchBox = ({ onSubmit }) => {
+export const SearchBox = ({ onSubmit, placeHolder }) => {
   const refInput = useRef();
 
   const handleSubmit = (e) => {
@@ -16,7 +16,7 @@ export const SearchBox = ({ onSubmit }) => {
     <form className={styles.main} onSubmit={handleSubmit}>
       <Input
         ref={refInput}
-        placeholder="Search your movies"
+        placeholder={placeHolder}
         className={styles.input}
       />
       <Button type="submit" className={styles.button}>
@@ -27,10 +27,13 @@ export const SearchBox = ({ onSubmit }) => {
 };
 
 SearchBox.propTypes = {
-  // Submit the research
+  /** Submit the research */
   onSubmit: PropTypes.func,
+  /** Input place holder */
+  placeHolder: PropTypes.string,
 };
 
 SearchBox.defaultProps = {
   onSubmit: () => alert('Click on Search!'),
+  placeHolder: 'Search...',
 };
