@@ -1,13 +1,13 @@
 module.exports = {
   presets: [
-    require.resolve("@babel/preset-react"),
+    require.resolve('@babel/preset-react'),
     [
-      require("@babel/preset-env"),
+      require('@babel/preset-env'),
       {
         targets: {
           node: 12,
         },
-        useBuiltIns: "usage",
+        useBuiltIns: 'usage',
         corejs: 3,
       },
     ],
