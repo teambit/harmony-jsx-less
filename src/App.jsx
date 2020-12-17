@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { MoviesSearch } from './components/forms/movies-search';
 
